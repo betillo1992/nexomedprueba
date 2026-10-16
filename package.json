@@ -1,0 +1,20 @@
+{
+  "name": "nexomed-biomedica",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sitio web comercial y catálogo administrable de Nexomed Biomédica.",
+  "type": "module",
+  "main": "server/index.js",
+  "engines": {
+    "node": ">=20.12"
+  },
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch-path=server --watch-path=views --watch-path=public server/index.js",
+    "admin:crear": "node scripts/crear-admin.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "5.2.1"
+  }
+}

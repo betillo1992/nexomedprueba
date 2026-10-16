@@ -1,0 +1,5 @@
+node_modules/
+# Datos del sitio: catálogo, imágenes, respaldos y credenciales (no versionar)
+data/
+.env
+*.log
